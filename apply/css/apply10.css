@@ -71,3 +71,17 @@ to { background-color: #660b32;}
   from {background-color: #fbdae9;}
   to {background-color: #660b32;}
 }
+/*Style rule for square*/
+.square {
+  animation-name: square;
+  animation-duration: 5s;
+}
+.square:hover {
+  transform: translate(80px);
+}
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}

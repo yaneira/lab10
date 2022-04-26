@@ -25,7 +25,7 @@
             <section>
                 <h2>JavaScript Demonstration</h2>
                 <p>Many of today's websites integrate JavaScript within their website to increase user interaction. Click the button below to generate new webpage content.</p>
-                <button>View new page content</button>
+                <button onclick="content()">View new page content</button>
                 <p id="new"></p>
             </section>
         </main>
@@ -35,6 +35,14 @@
         </footer>
 
 	</div>
+<script>
+  function content(){
+	var text = document.getElementById("new");
+	text.textContent = "hi. I am a new paragraph that was created with a javaScript function.";
+	text.style.color ="#c0145f";
+	text.style.fontSize = "2em";
+}
+</script>
 
 </body>
 </html>
